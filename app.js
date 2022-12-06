@@ -19,7 +19,7 @@ const User = require('./models/user')
 const userRoutes = require('./routes/users')
 const campgroundRoutes = require('./routes/campgrounds')
 const reviewRoutes = require('./routes/reviews')
-const dbUrl = process.env.DB_URL;
+const dbUrl = "mongodb+srv://Sumo:hello@cluster2.pdtpxlm.mongodb.net/?retryWrites=true&w=majority";
 
 //dbUrl
 
