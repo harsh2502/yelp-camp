@@ -19,11 +19,11 @@ const User = require('./models/user')
 const userRoutes = require('./routes/users')
 const campgroundRoutes = require('./routes/campgrounds')
 const reviewRoutes = require('./routes/reviews')
-const dbUrl = "mongodb+srv://Sumo:hello@cluster2.pdtpxlm.mongodb.net/?retryWrites=true&w=majority";
+const dbUrl = "mongodb+srv://harsh:%40Harsh2502@cluster0.pbfqw5x.mongodb.net/test?retryWrites=true&w=majority";
 
 //dbUrl
 
-mongoose.connect('mongodb+srv://Sumo:hello@cluster2.pdtpxlm.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://harsh:%40Harsh2502@cluster0.pbfqw5x.mongodb.net/test?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });

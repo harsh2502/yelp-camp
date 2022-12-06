@@ -3,7 +3,7 @@ const cities = require('./cities');
 const { places, descriptors } = require('./seedHelpers');
 const Campground = require('../models/campground');
 
-mongoose.connect('mongodb+srv://Sumo:hello@cluster2.pdtpxlm.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://harsh:%40Harsh2502@cluster0.pbfqw5x.mongodb.net/test?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
